@@ -1,5 +1,9 @@
+*{
+  padding: 0;
+}
+
 img {
-  width: 50vw;
+  width: 45vw;
   margin-left: 25%;
   margin-right: 25%;
   border-style: solid;
@@ -10,51 +14,68 @@ img {
 p {font-size: 20px;
 font-family: 'PT Serif', serif;
   color: black;
+  background-color: #EAC49C;
+  border-color: #888987;
+  border-style: ridge;
+  border-radius: 2px;
 }
-body {background-color: #F5D0A9}
-ul {list-style-type: none; margin: 0; padding: 0;}
-li {display: ;
-  float: none;
+body {background-color: #F5D0A9
+
+}
+
+ul {
+  display:flex ;
+flex-direction: column;
+justify-content: center;
+align-items: stretch ;
 font-family: 'PT Serif', serif;
-
-
+background-color: #888987;
+list-style-type: none; margin: 0; padding: 0;
 }
+
 a{display: block;
-  padding: 0px;
-  background-color: #888987;
+text-align: left;
 }
+
 h1 {font-size: 70px;
 font-family: 'Cormorant Garamond', serif;
 }
 
-li a{display: flex;
-  flex: auto;
+li a{
   color:  black;
-  text-align: center;
   padding: 10px 20px 10px 10px;
   text-decoration: none;
-  font-size: 40px;}
+  font-size: 40px;
+  text-shadow: #e0e0e0 1px 1px 0;
+
+}
+
   li a:hover {
     background-color: #2e2e2e;
     color: white;
   }
 
-nav{background-color: }
 
 h2 {
   display: block;
   background-color: gray;
   font-size: 50px;
 font-family: 'Cormorant Garamond', serif;
+text-shadow: #e0e0e0 1px 1px 0;
 }
 h3 {
   font-size: 60px;
 font-family: 'Cormorant Garamond', serif;
+text-shadow: #e0e0e0 1px 1px 0;
+}
 p {
 font-size: 25px;
 }
 
-.armorplating{
- display: flex
-  flex: auto;
+
+.sr-only {
+  text-indent: -10000px;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
 }
