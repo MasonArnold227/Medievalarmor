@@ -14,9 +14,8 @@ img {
   border-style: solid;
     border-color: #8C8B8B;
     border-width: 10px;
-    text-align: center;
 }
-p {font-size: 60px;
+p {font-size: 50px;
 font-family: 'PT Serif', serif;
   color: black;
   background-color: #EAC49C;
@@ -35,10 +34,20 @@ body {background-color: #F5D0A9
 
 .left{
   order: -1;
+  margin-right: 20px;
 }
 
 .right{
   order: 2;
+  margin-left: 20px;
+}
+.center{
+display: flex;
+text-align: center;
+}
+
+.specialimg{
+  background-color: gray;
 }
 
 /* Images and Body */
